@@ -43,7 +43,7 @@ echo $t0;
 <form action="index.php">
 <input type="text" name="username" class="form-control" id="username" placeholder="Username..."><br>
 <input type="hidden" name="lang" value="<?php require ("i18n.php"); echo $lang; ?>" />
-<input class="btn btn-primary btn-success" value="GO!" type="submit">
+<input class="btn btn-primary btn-success" value="<?php require ("i18n.php"); echo $t9; ?>" type="submit">
 </form>
 </div>
 <br>
