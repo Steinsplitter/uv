@@ -13,6 +13,7 @@ $t5 = "Der gewählte Venutzername ". htmlspecialchars($username) ." ist OK (Verb
 $t6 = "Der Benutzername existiert bereits,";
 $t7 = "Der Benutzernamen ist noch nicht registriert.";
 $t8 = "Bitte einen Nutzernamen eingaben.";
+$t9 = "Los!";
 }
 else
 {
@@ -28,5 +29,6 @@ $t5 = "The selected username ". htmlspecialchars($username) ." is valid (disallo
 $t6 = "Username exists yet.";
 $t7 = "Username is not registred.";
 $t8 = "Please enter a username to check.";
+$t9 = "GO!";
 }
 ?>
