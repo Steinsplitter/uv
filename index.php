@@ -26,6 +26,7 @@
             <li><a href="index.php?lang=de">Deutsch (de)</a></li>
             <li><a href="index.php?lang=en">English (en)</a></li>
             <li><a href="index.php?lang=ru">Pусский (ru)</a></li>
+            <li><a href="index.php?lang=zh">中文 (zh)</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="https://github.com/steinsplitter/uv">Edit / Translate</a></li>
           </ul>
@@ -48,7 +49,6 @@ echo $t0;
 </form>
 </div>
 <br>
-
 
 <?
 require ("i18n.php");
