@@ -40,6 +40,12 @@
 <br>
 <div class="well form-submit">
 <form action="index.php">
+<?php
+if($_GET["specialform"] == "dewiki") {
+echo "<input type=\"hidden\" name=\"specialform\" value=\"dewiki\" />";
+echo "<b><p>Neuer Benutzername:</p></b>";
+}
+?>
 <input type="text" name="username" class="form-control" id="username" placeholder="<?php echo $un; ?>"><br>
 <input type="hidden" name="lang" value="<?php  echo $lang; ?>" />
 <input class="btn btn-primary btn-success" value="<?php echo $t9; ?>" type="submit">
@@ -98,6 +104,27 @@ if ($valid == "true")  {
          errormsg($t6);
         } else  {
         okmsg($t7);
+
+        if($_GET["specialform"] == "dewiki") {
+        echo "<div class=\"form-group\">
+<form id=\"upload\" method=\"post\" enctype=\"multipart/form-data\" action=\"https://de.wikipedia.org/w/index.php?title=Wikipedia:Benutzernamen_%C3%A4ndern&action=edit&section=new&nosummary=1\" style=\"display:inline\">
+<h1>Benutzername &auml;ndern</h1>
+<p class=\"bg-info\">Achte darauf, dass du mit deinem aktuellen Benutzernamen angemeldet bist.<br>Bitte ersetze \"Hinweise etc.\" solltest du eine Hinweiss oder eine Begr&uuml;ndung hinterlassen wollen.</p>
+<textarea rows=\"8\" class=\"form-control\" name=\"wpTextbox1\">{{subst:Wikipedia:Benutzernamen &auml;ndern/Preloadvorlage
+|1= ". htmlspecialchars($username) ."
+|2= Hinweise etc.
+}}
+</textarea>
+<input name=\"wpPreview\" value=\"wpPreview\" type=\"hidden\">
+<input value=\"0\" name=\"wpStarttime\" type=\"hidden\">
+<input value=\"0\" name=\"wpEdittime\" type=\"hidden\">
+<input value=\"0\" name=\"wpMinoredit\" type=\"hidden\">
+<br>
+<input class=\"btn btn-primary\" name=\"wpPreview\" value=\"Vorschau & Speichern\" type=\"submit\">
+</form>
+</div>";
+        }
+
         }
 }
 
@@ -109,5 +136,3 @@ echo $t8;
 }
 
 ?>
-</body>
-</html>
