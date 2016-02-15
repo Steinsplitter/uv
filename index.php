@@ -109,7 +109,7 @@ if ($valid == "true")  {
         echo "<div class=\"form-group\">
 <form id=\"upload\" method=\"post\" enctype=\"multipart/form-data\" action=\"https://de.wikipedia.org/w/index.php?title=Wikipedia:Benutzernamen_%C3%A4ndern&action=edit&section=new&nosummary=1\" style=\"display:inline\">
 <h1>Benutzername &auml;ndern</h1>
-<p class=\"bg-info\">Achte darauf, dass du mit deinem aktuellen Benutzernamen angemeldet bist.<br>Bitte ersetze \"Hinweise etc.\" solltest du eine Hinweiss oder eine Begr&uuml;ndung hinterlassen wollen.</p>
+<p class=\"bg-info\">Achte darauf, dass du mit deinem aktuellen Benutzernamen angemeldet bist.<br>Bitte ersetze \"Hinweise etc.\" solltest du eine Hinweis oder eine Begr&uuml;ndung hinterlassen wollen.</p>
 <textarea rows=\"8\" class=\"form-control\" name=\"wpTextbox1\">{{subst:Wikipedia:Benutzernamen &auml;ndern/Preloadvorlage
 |1= ". htmlspecialchars($username) ."
 |2= Hinweise etc.
