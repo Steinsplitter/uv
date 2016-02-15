@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-  <title>Username vaidator</title>
+  <title><?php require ("i18n.php"); echo $th; ?></title>
   <link href="//tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   <script src="//tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="//tools-static.wmflabs.org/cdnjs/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -16,7 +16,7 @@
   <div class="navbar navbar-default navbar-fixed-top">
    <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"><?php require ("i18n.php"); echo $th; ?></a>
+        <a class="navbar-brand" href="#"><?php echo $th; ?></a>
       </div>
         <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
@@ -36,23 +36,18 @@
   </div>
 
   <div class="container">
-<?php
-require ("i18n.php");
-echo $t0;
-?>
+<?php echo $t0; ?>
 <br>
 <div class="well form-submit">
 <form action="index.php">
-<input type="text" name="username" class="form-control" id="username" placeholder="Username..."><br>
-<input type="hidden" name="lang" value="<?php require ("i18n.php"); echo $lang; ?>" />
-<input class="btn btn-primary btn-success" value="<?php require ("i18n.php"); echo $t9; ?>" type="submit">
+<input type="text" name="username" class="form-control" id="username" placeholder="<?php echo $un; ?>"><br>
+<input type="hidden" name="lang" value="<?php  echo $lang; ?>" />
+<input class="btn btn-primary btn-success" value="<?php echo $t9; ?>" type="submit">
 </form>
 </div>
 <br>
 
 <?
-require ("i18n.php");
-
 function errormsg($text) {
 echo "<div class=\"alert alert-danger\" role=\"alert\"><span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span> ";
 echo "$text";
@@ -67,6 +62,10 @@ echo "</div>";
 
 $username = $_GET['username'];
 if(isset($username)) {
+
+echo "<span class=\"glyphicon glyphicon-user\" aria-hidden=\"true\"></span> <b>";
+echo $un; echo ":</b> "; echo htmlspecialchars($username);
+echo "<br><br>";
 
 if (preg_match('/^[a-z].*$/', $username)) {
     errormsg($t1);
