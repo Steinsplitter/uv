@@ -3,17 +3,17 @@
 if($_GET["lang"] == "de") {
 $lang = "de";
 $langf = "Deutsch";
-$th = "Benutzernamen tool";
+$th = "Benutzernamen-Tool";
 $un = "Benutzername";
-$t0 = "<p>Dieses tool prüfft ob ein Benutzernam bereits existiert und valid ist.</p>";
-$t1 = "Der Benutzername muss mit einen GROSSBUCHSTABEN beginnen.";
+$t0 = "<p>Dieses Tool prüfft ob ein Benutzernam bereits existiert und valide ist.</p>";
+$t1 = "Der Benutzername muss mit einem GROSSBUCHSTABEN beginnen.";
 $t2 = "<b>@</b> in Benutzernamen ist nicht möglich.";
 $t3 = "Benutzername zu lang.";
 $t4 = "Benutzername enthält verbotene Zeichen. (#, <, >, [, ], |, {, }, ...).";
-$t5 = "Der gewählte Benutzername ist in Valide (Verbotene Zeichen/Format scan war negativ).";
-$t6 = "Der Benutzername existiert bereits,";
+$t5 = "Der Benutzername ist in Valide (Verbotene Zeichen/Format scan war negativ).";
+$t6 = "Der Benutzername existiert bereits.";
 $t7 = "Der Benutzernamen ist noch nicht registriert.";
-$t8 = "Bitte einen Nutzernamen eingaben.";
+$t8 = "Bitte einen Nutzernamen eingeben.";
 $t9 = "Los!";
 }
 elseif($_GET["lang"] == "ru") {
