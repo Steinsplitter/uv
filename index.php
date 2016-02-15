@@ -61,7 +61,7 @@ echo "</div>";
 }
 
 $username = $_GET['username'];
-if(isset($username)) {
+if(isset($username) && !empty($username)) {
 
 echo "<span class=\"glyphicon glyphicon-user\" aria-hidden=\"true\"></span> <b>";
 echo $un; echo ":</b> "; echo htmlspecialchars($username);
