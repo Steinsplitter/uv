@@ -5,14 +5,14 @@ $lang = "de";
 $langf = "Deutsch";
 $th = "Benutzernamen-Tool";
 $un = "Benutzername";
-$t0 = "<p>Dieses Tool prüfft ob ein Benutzernam bereits existiert und valide ist.</p>";
+$t0 = "<p>Dieses Tool prüft ob ein Benutzername bereits existiert und valide ist.</p>";
 $t1 = "Der Benutzername muss mit einem GROSSBUCHSTABEN beginnen.";
 $t2 = "<b>@</b> in Benutzernamen ist nicht möglich.";
 $t3 = "Benutzername zu lang.";
 $t4 = "Benutzername enthält verbotene Zeichen. (#, <, >, [, ], |, {, }, ...).";
-$t5 = "Der Benutzername ist in Valide (Verbotene Zeichen/Format scan war negativ).";
+$t5 = "Der Benutzername ist gültig (Verbotene Zeichen/Format scan war negativ).";
 $t6 = "Der Benutzername existiert bereits.";
-$t7 = "Der Benutzernamen ist noch nicht registriert.";
+$t7 = "Der Benutzername ist noch nicht registriert.";
 $t8 = "Bitte einen Nutzernamen eingeben.";
 $t9 = "Los!";
 }
