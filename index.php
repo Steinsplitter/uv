@@ -23,7 +23,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> <?php require ("i18n.php"); echo $langf; ?>
         <span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li><a href="index.php?lang=de">Català (ca)</a></li>
             <li><a href="index.php?lang=de">Deutsch (de)</a></li>
+            <li><a href="index.php?lang=de">Español (es)</a></li>
             <li><a href="index.php?lang=en">English (en)</a></li>
             <li><a href="index.php?lang=ru">Pусский (ru)</a></li>
             <li><a href="index.php?lang=zh">中文 (zh)</a></li>
