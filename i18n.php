@@ -48,6 +48,38 @@ $t7 = "用户名未被注册。";
 $t8 = "请输入一个要检查的用户名";
 $t9 = "开始！";
 }
+elseif($_GET["lang"] == "es") {
+$lang = "es";
+$langf = "Español";
+$th = "Validador de nombre de usuario";
+$un = "Nombre de usuario";
+$t0 = "<p>Esta herramienta comprueba si un nombre de usuario es válido y no está en uso.</p>";
+$t1 = "El nombre de usuario debe empezar por una letra mayúscula.";
+$t2 = "No se permiten arrobas (<b>@</b>) en los nombres de usuario.";
+$t3 = "El nombre de usuario es demasiado largo.";
+$t4 = "El nombre de usuario contiene caracteres no permitidos (#, <, >, [, ], |, {, }, ...).";
+$t5 = "El nombre de usuario seleccionado es válido (la comprobación de formato de nombres de usuario no permitidos ha sido negativa).";
+$t6 = "El nombre de usuario ya existe.";
+$t7 = "El nombre de usuario no está registrado.";
+$t8 = "Por favor, introduce un nombre de usuario para ser comprobado.";
+$t9 = "¡Vamos!";
+}
+elseif($_GET["lang"] == "ca") {
+$lang = "ca";
+$langf = "Català";
+$th = "Validador de nom d'usuari";
+$un = "Nom d'usuari";
+$t0 = "<p>Aquesta ferramenta comprova si un nom d'usuari és vàlid i no està en ús.</p>";
+$t1 = "El nom d'usuari ha de començar per una lletra majúscula.";
+$t2 = "No es permeten caràcters <b>@</b> als noms d'usuari.";
+$t3 = "El nom d'usuari és massa llarg.";
+$t4 = "El nom d'usuari conté caràcters no permesos (#, <, >, [, ], |, {, }, ...).";
+$t5 = "El nom d'usuari seleccionat és vàlid (la comprovació de format de noms d'usuari no permesos ha sigut negativa).";
+$t6 = "El nom d'usuari ja existeix.";
+$t7 = "El nom d'usuari no està registrat.";
+$t8 = "Per favor, introdueix un nom d'usuari per a ser comprovat.";
+$t9 = "Som-hi!";
+}
 else
 {
 $lang = "en";
