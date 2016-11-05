@@ -80,7 +80,7 @@ $t7 = "El nom d'usuari no està registrat.";
 $t8 = "Per favor, introdueix un nom d'usuari per a ser comprovat.";
 $t9 = "Som-hi!";
 }
-if($_GET["lang"] == "ar") {
+elseif($_GET["lang"] == "ar") {
 $lang = "ar";
 $langf = "العربية";
 $th = "أداة التحقق لأسماء المستخدمين";
