@@ -56,7 +56,7 @@ echo "<b><p>Neuer Benutzername:</p></b>";
 </div>
 <br>
 
-<?
+<?php
 function errormsg($text) {
 echo "<div class=\"alert alert-danger\" role=\"alert\"><span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span> ";
 echo "$text";
