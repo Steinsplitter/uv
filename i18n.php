@@ -96,6 +96,22 @@ $t7 = "الاسم غير مسجل من قبل.";
 $t8 = "أدخل الاسم المطلوب للفحص.";
 $t9 = "أذهب!";
 }
+elseif($_GET["lang"] == "id") {
+$lang = "id";
+$langf = "Bahasa Indonesia";
+$th = "Validator nama pengguna";
+$un = "Nama pengguna";
+$t0 = "<p>Alat ini memeriksa apakah sebuah nama pengguna valid dan tidak digunakan.</p>";
+$t1 = "Nama pengguna wajib diawali dengan huruf kapital.";
+$t2 = "<b>@</b> dalam nama pengguna tidak diizinkan.";
+$t3 = "Nama pengguna terlalu panjang.";
+$t4 = "Nama pengguna mengandung karakter yang tidak diizinkan (#, <, >, [, ], |, {, }, ...).";
+$t5 = "Nama pengguna terpilih valid (pencarian format nama pengguna yang tidak diizinkan nihil).";
+$t6 = "Nama pengguna telah ada.";
+$t7 = "Nama pengguna belum terdaftar.";
+$t8 = "Masukkan nama pengguna untuk diperiksa.";
+$t9 = "Jalankan!";
+}
 else
 {
 $lang = "en";
