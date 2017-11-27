@@ -48,7 +48,7 @@
 if($_GET["specialform"] == "dewiki") {
 echo "<input type=\"hidden\" name=\"specialform\" value=\"dewiki\" />";
 echo "<b><p>Neuer Benutzername:</p></b>";
-} else if($_GET["specialform"] == "eswiki") {
+} elseif($_GET["specialform"] == "eswiki") {
 echo "<input type=\"hidden\" name=\"specialform\" value=\"eswiki\" />";
 echo "<b><p>Solicita un nombre de usuario nuevo por el que quieras que se te conozca a través de todos los proyectos:</p></b>";
 }
@@ -130,7 +130,7 @@ if ($valid == "true")  {
 <input class=\"btn btn-primary\" name=\"wpPreview\" value=\"Vorschau & Speichern\" type=\"submit\">
 </form>
 </div>";
-        } else if($_GET["specialform"] == "eswiki") {
+        } elseif($_GET["specialform"] == "eswiki") {
 echo "<div class=\"form-group\">
 <form id=\"upload\" method=\"post\" enctype=\"multipart/form-data\" action=\"https://es.wikipedia.org/w/index.php?title=Wikipedia:Cambiar_el_nombre_de_usuario&action=edit&section=new&nosummary=1\" style=\"display:inline\">
 <h1>Cambiar el nombre de usuario</h1>
