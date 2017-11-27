@@ -137,7 +137,7 @@ echo "<div class=\"form-group\">
 <p class=\"bg-info\">Por favor verifica que has iniciado sesión con tu cuenta.<br>Por favor reemplaza \"razones para el cambio\" con una justificación.</p>
 <textarea rows=\"8\" class=\"form-control\" name=\"wpTextbox1\">{{subst:renombrar usuario
 |1= {{subst:REVISIONUSER}}
-|3= ". htmlspecialchars($username) ."
+|2= ". htmlspecialchars($username) ."
 |3= razones para el cambio
 }}
 </textarea>
