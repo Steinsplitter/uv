@@ -28,6 +28,7 @@
             <li><a href="index.php?lang=es">Español (es)</a></li>
             <li><a href="index.php?lang=en">English (en)</a></li>
             <li><a href="index.php?lang=id">Bahasa Indonesia (id)</a></li>
+            <li><a href="index.php?lang=ja">日本語 (ja)</a></li>
             <li><a href="index.php?lang=ru">Pусский (ru)</a></li>
             <li><a href="index.php?lang=zh">中文 (zh)</a></li>
             <li><a href="index.php?lang=ar">العربية</a></li>
