@@ -23,15 +23,16 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> <?php require ("i18n.php"); echo $langf; ?>
         <span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li><a href="index.php?lang=ar">العربية (ar)</a></li>
             <li><a href="index.php?lang=ca">Català (ca)</a></li>
             <li><a href="index.php?lang=de">Deutsch (de)</a></li>
             <li><a href="index.php?lang=es">Español (es)</a></li>
             <li><a href="index.php?lang=en">English (en)</a></li>
+            <li><a href="index.php?lang=hy">Հայերեն (hy)</a></li>
             <li><a href="index.php?lang=id">Bahasa Indonesia (id)</a></li>
             <li><a href="index.php?lang=ja">日本語 (ja)</a></li>
             <li><a href="index.php?lang=ru">Pусский (ru)</a></li>
             <li><a href="index.php?lang=zh">中文 (zh)</a></li>
-            <li><a href="index.php?lang=ar">العربية</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="https://github.com/steinsplitter/uv">Edit / Translate</a></li>
           </ul>
