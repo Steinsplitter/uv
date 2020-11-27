@@ -136,11 +136,10 @@ if ($valid == "true")  {
 echo "<div class=\"form-group\">
 <form id=\"upload\" method=\"post\" enctype=\"multipart/form-data\" action=\"https://es.wikipedia.org/w/index.php?title=Wikipedia:Cambiar_el_nombre_de_usuario&action=edit&section=new&nosummary=1\" style=\"display:inline\">
 <h1>Cambiar el nombre de usuario</h1>
-<p class=\"bg-info\">Por favor verifica que has iniciado sesión con tu cuenta.<br>Por favor reemplaza \"razones para el cambio\" con una justificación.</p>
-<textarea rows=\"8\" class=\"form-control\" name=\"wpTextbox1\">{{subst:renombrar usuario
-|1= {{subst:REVISIONUSER}}
-|2= ". htmlspecialchars($username) ."
-|3= razones para el cambio
+<p class=\"bg-info\">Por favor verifica que has iniciado sesión con tu cuenta.</p>
+<textarea rows=\"8\" class=\"form-control\" name=\"wpTextbox1\">{{sust:renombrar usuario
+| 1 = ". htmlspecialchars($username) ."
+| 2 = Reemplaza esta línea de texto con el motivo por el que solicitas el cambio
 }}
 </textarea>
 <input name=\"wpPreview\" value=\"wpPreview\" type=\"hidden\">
