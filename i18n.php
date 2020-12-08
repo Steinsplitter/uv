@@ -67,18 +67,18 @@ $t9 = "ՍԿՍԵԼ";
 elseif($_GET["lang"] == "es") {
 $lang = "es";
 $langf = "Español";
-$th = "Validador de nombre de usuario";
+$th = "Validador de nombres de usuario";
 $un = "Nombre de usuario";
 $t0 = "<p>Esta herramienta comprueba si un nombre de usuario es válido y no está en uso.</p>";
 $t1 = "El nombre de usuario debe empezar por una letra mayúscula.";
 $t2 = "No se permiten arrobas (<b>@</b>) en los nombres de usuario.";
 $t3 = "El nombre de usuario es demasiado largo.";
-$t4 = "El nombre de usuario contiene caracteres no permitidos (#, <, >, [, ], |, {, }, ...).";
+$t4 = "El nombre de usuario contiene caracteres no permitidos (#, <, >, [, ], |, {, }, etc.).";
 $t5 = "El nombre de usuario seleccionado es válido (la comprobación de formato de nombres de usuario no permitidos ha sido negativa).";
 $t6 = "El nombre de usuario ya existe.";
 $t7 = "El nombre de usuario no está registrado.";
-$t8 = "Por favor, introduce un nombre de usuario para ser comprobado.";
-$t9 = "¡Vamos!";
+$t8 = "Por favor introduce un nombre de usuario para ser comprobado.";
+$t9 = "Comprobar";
 }
 elseif($_GET["lang"] == "ca") {
 $lang = "ca";
