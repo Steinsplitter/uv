@@ -102,7 +102,7 @@ if ($valid == "true")  {
     okmsg($t5);
         $tools_pw = posix_getpwuid(posix_getuid());
         $tools_mycnf = parse_ini_file($tools_pw['dir'] . "/replica.my.cnf");
-        $db = new mysqli('s1.labsdb', $tools_mycnf['user'], $tools_mycnf['password'],
+        $db = new mysqli('s7.web.db.svc.wikimedia.cloud', $tools_mycnf['user'], $tools_mycnf['password'],
                 'centralauth_p');
         if ($db->connect_errno)
                 die("Failed to connect to MySQL: (" . $db->connect_errno . ") " . $db->connect_error);
