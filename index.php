@@ -116,7 +116,7 @@ if ($valid == "true")  {
 
         if($_GET["specialform"] == "dewiki") {
         echo "<div class=\"form-group\">
-<form id=\"upload\" method=\"post\" enctype=\"multipart/form-data\" action=\"https://de.wikipedia.org/w/index.php?title=Wikipedia:Benutzernamen_%C3%A4ndern&action=edit&section=new&nosummary=1\" style=\"display:inline\">
+<form id=\"upload\" method=\"post\" enctype=\"multipart/form-data\" action=\"https://de.wikipedia.org/w/index.php?title=Wikipedia:Benutzernamen_%C3%A4ndern&action=edit&section=new&nosummary=1&dtenable=0\" style=\"display:inline\">
 <h1>Benutzername &auml;ndern</h1>
 <p class=\"bg-info\">Achte darauf, dass du mit deinem aktuellen Benutzernamen angemeldet bist.<br>Bitte ersetze \"Hinweise etc.\" solltest du eine Hinweis oder eine Begr&uuml;ndung hinterlassen wollen.</p>
 <textarea rows=\"8\" class=\"form-control\" name=\"wpTextbox1\">{{subst:Wikipedia:Benutzernamen &auml;ndern/Preloadvorlage
@@ -134,7 +134,7 @@ if ($valid == "true")  {
 </div>";
         } elseif($_GET["specialform"] == "eswiki") {
 echo "<div class=\"form-group\">
-<form id=\"upload\" method=\"post\" enctype=\"multipart/form-data\" action=\"https://es.wikipedia.org/w/index.php?title=Wikipedia:Cambiar_el_nombre_de_usuario&action=edit&section=new&nosummary=1\" style=\"display:inline\">
+<form id=\"upload\" method=\"post\" enctype=\"multipart/form-data\" action=\"https://es.wikipedia.org/w/index.php?title=Wikipedia:Cambiar_el_nombre_de_usuario&action=edit&section=new&nosummary=1&dtenable=0\" style=\"display:inline\">
 <h1>Cambiar el nombre de usuario</h1>
 <p class=\"bg-info\">Por favor verifica que has iniciado sesión con tu cuenta.</p>
 <textarea rows=\"8\" class=\"form-control\" name=\"wpTextbox1\">{{sust:renombrar usuario
